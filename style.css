@@ -32,17 +32,26 @@ hr {
 
 .btn {
     border-radius: 300px;
-    background-color: #c43404;
-    border-color: #c43404;
-    border-width: 12px;
-    color: white;
-    font-size: 20px; 
+    font-size: 14px; 
+    font-weight: 700;
+  	text-transform: uppercase;
+  	font-family: 'Montserrat', sans-serif;
 
 }
 
-.btn:hover {
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #c43404;
+  border-color: #c43404;
+}
+
+.btn-primary:hover {
 	background-color: #dbd767;
 	border-color: #dbd767;
+	cursor: pointer;
 }
 
 /*.btn:active, .btn:focus 
