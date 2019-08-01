@@ -43,16 +43,18 @@ hr {
   padding: 1rem 2rem; 
 }
 
-.btn-primary {
+.btn-primary, .btn-xl {
   background-color: #c43404;
   border-color: #c43404;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-xl:hover {
 	background-color: #dbd767;
 	border-color: #dbd767;
 	cursor: pointer;
 }
+
+
 
 /*.btn:active, .btn:focus 
  {
